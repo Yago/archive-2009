@@ -1,0 +1,428 @@
+* {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+#principal {
+	width: 950px;
+	margin: 0 auto;
+}
+
+
+
+/*COULEUR*/
+
+
+/*
+vert: #b1de26;
+bleu: #008dd0;
+orange: #ff8a00;
+rouge: #d60011;
+cyan: #07ddcc;
+jaune: #feed23;
+*/
+
+/*HEAD*/
+
+
+a img {
+	border-style: none;
+}
+
+h1 a img {
+	border-style: none;
+}
+
+h1 {
+	text-align: center;
+	margin: 60px 0;
+}
+
+#lienActif {
+	background: #fff;
+}
+
+
+
+
+/*NAVIGATION*/
+
+
+#navig {
+	text-align: center;
+	/*padding: 0 20px;*/
+}
+
+#news {
+	background: url('../images/news.jpg') no-repeat;
+
+}
+
+#news a {
+	padding-right: 20px;
+}
+
+
+#illustration {
+	background: url('../images/illustration.jpg') no-repeat;
+	padding-right: 20px;
+}
+
+#photo {
+	background: url('../images/photo.jpg') no-repeat;
+}
+
+#graphisme {
+	background: url('../images/graphisme.jpg') no-repeat;
+}
+
+#video {
+	background: url('../images/video.jpg') no-repeat;
+}
+
+#cv {
+	background: url('../images/cv.jpg') no-repeat;
+
+}
+
+#cv img {
+	width: 50px;
+	height: 29px;
+}
+
+#contact {
+	background: url('../images/contact.jpg') no-repeat;
+}
+
+#news:hover {
+	background: url('../images/news2.jpg') no-repeat;
+}
+
+#illustration:hover {
+	background: url('../images/illustration2.jpg') no-repeat;
+}
+
+#photo:hover {
+	background: url('../images/photo2.jpg') no-repeat;
+}
+
+#graphisme:hover {
+	background: url('../images/graphisme2.jpg') no-repeat;
+}
+
+#video:hover {
+	background: url('../images/video2.jpg') no-repeat;
+}
+
+#cv:hover {
+	background: url('../images/cv2.jpg') no-repeat;
+}
+
+#contact:hover {
+	background: url('../images/contact2.jpg') no-repeat;
+}
+
+#menuDeroulant {
+	background: url('../images/fondNavig.jpg') repeat-x;
+	list-style-type: none;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#menuDeroulant li {
+	float: left;
+	/*text-align: center;
+	text-decoration: none;*/
+	position: relative;
+	list-style-type: none;
+	
+}
+
+#menuDeroulant .liensPrinc {
+	background: url('../images/fondNavig.jpg') repeat-x;
+	display: block;
+	width: 130px;
+	height: 30px;
+	/*margin: 0 20px;*/
+}
+
+#menuDeroulant a {
+	color: #000;
+	font-size: 13px;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+
+#menuDeroulant #lienActif {
+	background: url('../images/fondActif.jpg') repeat-x;
+}
+
+#menuDeroulant .liensPrinc:hover, #menuDeroulant #lienActif:hover {
+	background: url('../images/fondEvidence.jpg') repeat-x;
+	color: #000;
+}
+
+
+#menuDeroulant li ul {
+	background: url('../images/fondSousNavig.png');
+	font-size: 11px;
+	position: absolute;
+	z-index: 30;
+	top: 30px;
+}
+
+
+#menuDeroulant .sousMenu li {
+	background: url('../images/sousMenu.png');
+	float: none;
+	text-align: left;
+	padding-left: 20px;
+	width: 140px;
+	padding: 10px 0 10px 10px;
+}
+
+#menuDeroulant .sousMenu li a {
+	margin-left: 20px;
+}
+
+#menuDeroulant .sousMenu li:hover {
+	background: url('../images/sousMenuFond.png');
+}
+
+#menuDeroulant #illustration .sousMenu li:hover {
+	background: #ff8a00;
+}
+
+#menuDeroulant #graphisme .sousMenu li:hover {
+	background: #008dd0;
+}
+
+#menuDeroulant #photo .sousMenu li:hover {
+	background: #b1de26;
+}
+
+#menuDeroulant #video .sousMenu li:hover {
+	background: #d60011;
+}
+
+#menuDeroulant #contact .sousMenu li:hover {
+	background: #07ddcc;
+}
+
+.sousMenu {
+	display: none;
+}
+
+
+#menuDeroulant li:hover > .sousMenu {
+	display: block;
+}
+
+
+/*CONTENU*/
+
+
+#contenu {
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 148px;
+	margin-bottom: 150px;
+}
+
+#contenuNews {
+	background: #feed23;
+	padding: 15px 40px;
+}
+
+#contenuNews h2 {
+	font-size: 13px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 3px;
+}
+
+#contenuNews p{
+	background: #feed23;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.infos .when {
+	font-size: 9px;
+	font-style: italic;
+}
+
+#first {
+	margin-top: 0;
+}
+
+.article {
+	margin-top: 50px;
+}
+
+#contenuPhoto {
+	background: #b1de26; 
+	text-align: center;
+	padding: 0 20px;
+}
+
+#contenuIllustration {
+	background: #ff8a00;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#contenuGraphisme{
+	background: #008dd0;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#contenuContact {
+	background: #07ddcc;
+	padding: 0 50px;
+}
+
+#contenuVideo {
+	background: #d60011;
+	text-align: center;
+	padding: 0 20px;
+}
+
+
+#contenuPhoto a, #contenuIllustration a, #contenuGraphisme a, #contenuVideo a {
+	margin: 0px auto;
+}
+
+#contenuPhoto a img, #contenuIllustration a img, #contenuGraphisme a img, #contenuVideo a img {
+	margin: 5px 0;
+}
+
+p {
+	background: #b1de26;
+	padding: 5px 40px;
+}
+
+#dessin #navigInterne {
+	background: #ff8a00;
+}
+
+#navigInterne {
+	background: #b1de26;
+	padding: 5px 0;
+}
+
+#navigInterne dt {
+	display: inline;
+}
+
+#navigInterne dl {
+	text-align: center;
+}
+
+#navigInterne a, #navigInterne a:visited {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+
+/*FORMULAIRE*/
+
+
+
+#consigne {
+	margin-left: 20px;
+	font-size: 10px;
+}
+
+fieldset {
+	border: 0px solid #150f0c;
+	padding: 10px 0;
+}
+
+.donnees label {
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+label {
+	margin-left: 6px;
+}
+
+input {
+	margin: 2px 0;
+}
+
+.donnees input {
+	width: 250px;
+}
+
+#nom, #prenom {
+	width: 120px;
+}
+
+textarea {
+	width: 456px;
+	margin-left: 3px;
+}
+
+
+/*CV*/
+
+
+#cv1 {
+	font-weight: bold;
+	width: 130px;
+	float: left;
+}
+
+#vitae p {
+	margin-bottom: 40px;
+}
+
+#cv2 {
+	margin-left: 130px;
+}
+
+#clear {
+	clear: both;
+}
+
+#vitae #contenuNews {
+	padding: 0 50px;
+}
+
+#vitae #contenuNews img {
+	margin: 10px 0 20px 0;
+}
+
+/*ERREUR*/
+
+
+#erreur {
+	margin: 200px auto;
+	width: 513px;
+}
+
+#erreur img {
+	margin-bottom: 100px;
+}
+
+#erreur a, #erreur a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#erreur a:hover {
+	color: #d60011;
+}
